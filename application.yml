@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: postsService
+  data:
+    mongodb:
+      host: localhost
+      port: 37017
+      database: posts
+      username: admin    # MongoDB username
+      password: afaboi     # MongoDB password
+      authentication-database: admin  #Authentication database
+      auto-index-creation: true   # Automatically create indexes
+server:
+  port: 8101
+
+posts:
+  jwt:
+     secret: ajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdnajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdnajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdn
