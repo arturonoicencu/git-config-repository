@@ -1,0 +1,27 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  sql:
+    init:
+      mode: always
+      platform: postgres
+  datasource:
+    password: Afaboi
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+
+server:
+  port: 8000
+
+bezkoder:
+  app:
+    jwtSecret: ajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdnajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdnajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdn
+    jwtExpirationMs: 86400000
