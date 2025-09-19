@@ -12,3 +12,5 @@ server:
 posts:
   jwt:
      secret: ajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdnajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdnajkyM2QzMjhkYzM4ZjAyODk0MzQzODlkZjg0OTAwNGtLOUQ5MzBESzIzRDAzRGhmZTkyODRqZjQ4ampkU0RGaGRmMzkzcjN3ZXdn
+  test:
+     prova: alobossprova
