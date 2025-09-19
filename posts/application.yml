@@ -3,7 +3,7 @@ spring:
     name: posts
   data:
     mongodb:
-      uri: mongodb://admin:afaboi@172.22.0.2:37017/posts?authSource=admin&authMechanism=SCRAM-SHA-256
+      uri: mongodb://admin:afaboi@localhost:37017/posts?authSource=admin&authMechanism=SCRAM-SHA-256
       authentication-database: admin  #Authentication database
       auto-index-creation: true   # Automatically create indexes
 server:
