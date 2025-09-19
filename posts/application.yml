@@ -3,11 +3,7 @@ spring:
     name: posts
   data:
     mongodb:
-      host: localhost
-      port: 37017
-      database: posts
-      username: admin    # MongoDB username
-      password: afaboi     # MongoDB password
+      uri: mongodb://admin:afaboi@172.22.0.2:37017/posts?authSource=admin&authMechanism=SCRAM-SHA-256
       authentication-database: admin  #Authentication database
       auto-index-creation: true   # Automatically create indexes
 server:
